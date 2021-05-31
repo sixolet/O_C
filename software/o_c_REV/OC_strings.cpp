@@ -10,6 +10,12 @@ namespace OC {
 
   const char * const seq_directions[] = {"fwd", "rev", "pnd1", "pnd2", "rnd", "brwn"};
 
+  const char * const scale_degrees_maj[] = {"I", "II", "III", "IV", "V", "VI", "VII"};
+  
+  const char* const scale_degrees_min[] = {"i", "ii", "iii", "iv", "v", "vi", "vii"};
+
+  const char* const accidentals[] = {"bb", "b", "", "#", "##"};
+
   const char * const scale_id[] = { ">#1", ">#2", ">#3", ">#4", " #1", " #2", " #3", " #4"};
   
   const char * const note_names[12] = { "C ", "C#", "D ", "D#", "E ", "F ", "F#", "G ", "G#", "A ", "A#", "B " };

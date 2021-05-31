@@ -40,7 +40,8 @@ OC::App available_apps[] = {
   DECLARE_APP('H','A', "Triads", H1200, H1200_isr),
   DECLARE_APP('A','T', "Vectors", Automatonnetz, Automatonnetz_isr),
   DECLARE_APP('Q','Q', "4x Quantizer", QQ, QQ_isr),
-  DECLARE_APP('D','Q', "2x Quantizer", DQ, DQ_isr),
+  DECLARE_APP('P','Q', "Tension", PASSENCORE, PASSENCORE_isr),
+  //DECLARE_APP('D','Q', "2x Quantizer", DQ, DQ_isr),
   DECLARE_APP('P','L', "Quadrature LFO", POLYLFO, POLYLFO_isr),
   DECLARE_APP('L','R', "Lorenz", LORENZ, LORENZ_isr),
   DECLARE_APP('E','G', "4x EG", ENVGEN, ENVGEN_isr),
@@ -48,7 +49,7 @@ OC::App available_apps[] = {
   DECLARE_APP('B','B', "Balls", BBGEN, BBGEN_isr),
   DECLARE_APP('B','Y', "Bytebeats", BYTEBEATGEN, BYTEBEATGEN_isr),
   DECLARE_APP('C','Q', "Chords", CHORDS, CHORDS_isr),
-  DECLARE_APP('R','F', "Voltages", REFS, REFS_isr)
+  DECLARE_APP('R','F', "Voltages", REFS, REFS_isr),
 };
 #else 
 OC::App available_apps[] = {
@@ -56,7 +57,8 @@ OC::App available_apps[] = {
   DECLARE_APP('H','A', "Harrington 1200", H1200, H1200_isr),
   DECLARE_APP('A','T', "Automatonnetz", Automatonnetz, Automatonnetz_isr),
   DECLARE_APP('Q','Q', "Quantermain", QQ, QQ_isr),
-  DECLARE_APP('D','Q', "Meta-Q", DQ, DQ_isr),
+  DECLARE_APP('P','Q', "Passencore", PASSENCORE, PASSENCORE_isr),
+  //DECLARE_APP('D','Q', "Meta-Q", DQ, DQ_isr),
   DECLARE_APP('P','L', "Quadraturia", POLYLFO, POLYLFO_isr),
   DECLARE_APP('L','R', "Low-rents", LORENZ, LORENZ_isr),
   DECLARE_APP('E','G', "Piqued", ENVGEN, ENVGEN_isr),
@@ -64,7 +66,7 @@ OC::App available_apps[] = {
   DECLARE_APP('B','B', "Dialectic Ping Pong", BBGEN, BBGEN_isr),
   DECLARE_APP('B','Y', "Viznutcracker sweet", BYTEBEATGEN, BYTEBEATGEN_isr),
   DECLARE_APP('C','Q', "Acid Curds", CHORDS, CHORDS_isr),
-  DECLARE_APP('R','F', "References", REFS, REFS_isr)
+  DECLARE_APP('R','F', "References", REFS, REFS_isr),
 };
 #endif
 
